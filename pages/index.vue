@@ -4,15 +4,19 @@
       <Hero />
       <Social />
     </div>
+    <div>
+      <Projects />
+    </div>
   </div>
 </template>
 
 <script>
   import Hero from '../components/Hero.vue'
   import Social from '../components/Social.vue'
+  import Projects from '../components/Projects.vue'
     export default {
       components:{
-        Hero, Social
+        Hero, Social, Projects
       },
       head() {
         return {

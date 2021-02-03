@@ -12,7 +12,7 @@
             <!-- <nuxt-link class="nav-link hover:text-primary" to="portfolio">Portfolio</nuxt-link> -->
             <nuxt-link class="nav-link hover:text-primary" to="blog">Blog</nuxt-link>
             <nuxt-link class="nav-link hover:text-primary" to="about">About</nuxt-link>
-            <nuxt-link class="ml-12 px-5 py-2 bg-primary text-white font-semibold rounded-lg" to="contact">Contact</nuxt-link>
+            <nuxt-link class="nav-link hover:text-primary" to="contact">Contact</nuxt-link>
           </div>
 
           <div class="ml-3 flex md:hidden">
@@ -70,10 +70,10 @@
 
 <style>
     .mobile-link{
-      @apply block px-3 py-2 text-lg text-gray-900 rounded-md text-white font-medium text-center;
+      @apply block px-3 py-2 text-base text-gray-900 rounded-md text-white font-medium text-center;
     }
 
     .nav-link{
-      @apply ml-12 font-medium text-lg text-gray-700;
+      @apply ml-12 font-medium text-base text-gray-700;
     }
 </style>
